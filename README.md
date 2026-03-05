@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< 
 I kajal Barthwal build a full-stack Markdown blog application that allow users to create,update and delete blog using Markdown with Authentication and role-based access.
 
 
