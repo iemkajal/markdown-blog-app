@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 I kajal Barthwal build a full-stack Markdown blog application that allow users to create,update and delete blog using Markdown with Authentication and role-based access.
 
 
@@ -135,3 +136,7 @@ git installed
 This project demonstrates a modern full-stack architecture, strong fundamentals in React, backend APIs, authentication, and real-world application design.
 
 ---------------END-------------------------
+=======
+# markdown-blog-app
+Markdown Blog APP (FULL STACK)
+>>>>>>> 683cba51e53a73dd2ed497a27ab6b1363d2be0c4
