@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://markdown-blog-app-5ffd.onrender.com"
