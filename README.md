@@ -149,6 +149,12 @@ The frontend is built using reusable React components to maintain modular and ma
 
 ![Blog View](screenshots/userview.png)
 
+### Frontend Deployment (Vercel)
+![Vercel Deployment](screenshots/vercel.png)
+
+### Backend Deployment (Render)
+![Render Deployment](screenshots/Render.png)
+
 ---
 
 # Author
