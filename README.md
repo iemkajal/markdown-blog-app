@@ -5,6 +5,14 @@ The application includes authentication, a personal dashboard, and a clean inter
 
 Built using **React, Node.js, Express, and MongoDB** to demonstrate modern full-stack development practices.
 
+## Live Deployment
+
+Frontend (Vercel):  
+https://markdown-blog-app-five.vercel.app
+
+Backend API (Render):  
+https://markdown-blog-app-5ffd.onrender.com
+
 ---
 
 # GitHub Repository
