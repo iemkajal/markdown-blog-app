@@ -5,57 +5,71 @@ The application includes authentication, a personal dashboard, and a clean inter
 
 Built using **React, Node.js, Express, and MongoDB** to demonstrate modern full-stack development practices.
 
+---
+
 ## Live Deployment
 
-Frontend (Vercel):  
+Frontend (Vercel):
 https://markdown-blog-app-five.vercel.app
 
-Backend API (Render):  
+Backend API (Render):
 https://markdown-blog-app-5ffd.onrender.com
 
 ---
 
-# GitHub Repository
+## GitHub Repository
 
 https://github.com/iemkajal/markdown-blog-app
 
 ---
 
-# Tech Stack
+## Features
 
-## Frontend
+* User registration and login
+* Secure authentication using JWT
+* Create, edit, and delete blog posts
+* Markdown-based blog editor
+* Personal dashboard to manage blogs
+* View blogs written by different creators
+* Responsive user interface
+
+---
+
+## Tech Stack
+
+### Frontend
 
 * React
 * Vite
 * Tailwind CSS
 * Context API
 
-## Backend
+### Backend
 
 * Node.js
 * Express.js
 
-## Database
+### Database
 
 * MongoDB
 
-## Authentication
+### Authentication
 
 * JWT (JSON Web Token)
 
 ---
 
-# Setup Instructions
+## Setup Instructions
 
 Follow the steps below to run the project locally.
 
-## 1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/iemkajal/markdown-blog-app.git
 ```
 
-## 2. Navigate to the Project Folder
+### 2. Navigate to the Project Folder
 
 ```bash
 cd markdown-blog-app
@@ -63,7 +77,7 @@ cd markdown-blog-app
 
 ---
 
-# Backend Setup
+## Backend Setup
 
 Move to the backend folder and install dependencies:
 
@@ -91,7 +105,7 @@ http://localhost:5000
 
 ---
 
-# Frontend Setup
+## Frontend Setup
 
 Open a new terminal and run:
 
@@ -107,65 +121,67 @@ http://localhost:5173
 
 ---
 
-# Design Decisions
+## Design Decisions
 
-## Separation of Frontend and Backend
+### Separation of Frontend and Backend
 
 The application separates frontend and backend logic to maintain a clean architecture and allow easier scalability and maintenance.
 
-## REST API Structure
+### REST API Structure
 
 The backend follows RESTful API principles to handle operations such as creating, updating, retrieving, and deleting blog posts.
 
-## JWT Authentication
+### JWT Authentication
 
 JWT tokens are used for secure user authentication and session management.
 
-## Component Based Architecture
+### Component-Based Architecture
 
 The frontend is built using reusable React components to maintain modular and maintainable code.
 
 ---
 
-# Application Screenshots
+## Application Screenshots
 
-## Homepage
+### Homepage
 
 ![Homepage](screenshots/homepage.png)
 
-## Login Page
+### Login Page
 
 ![Login](screenshots/login.png)
 
-## Register Page
+### Register Page
 
 ![Register](screenshots/register.png)
 
-## Blog Editor
+### Blog Editor
 
 ![Editor](screenshots/editors.png)
 
-## Dashboard
+### Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
 
-## Popular Creators
+### Popular Creators
 
 ![Creators](screenshots/popularcreaters.png)
 
-## Blog View
+### Blog View
 
 ![Blog View](screenshots/userview.png)
 
 ### Frontend Deployment (Vercel)
+
 ![Vercel Deployment](screenshots/vercel.png)
 
 ### Backend Deployment (Render)
+
 ![Render Deployment](screenshots/Render.png)
 
 ---
 
-# Author
+## Author
 
 Kajal Barthwal
 MCA Graduate | Full Stack Developer
