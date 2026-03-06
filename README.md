@@ -1,105 +1,157 @@
 # Markdown Blog App (Full Stack)
 
-## Project Overview
+A full-stack blogging platform where users can create, edit, and manage blog posts written in Markdown.
+The application includes authentication, a personal dashboard, and a clean interface for writing and reading blogs.
 
-This is a full-stack blog application where users can create, edit, update, and read blog posts written in Markdown.
-The application includes authentication, a dashboard for managing blogs, and a responsive user interface.
-
-The project demonstrates full-stack development using React for the frontend and Node.js with Express for the backend.
+Built using **React, Node.js, Express, and MongoDB** to demonstrate modern full-stack development practices.
 
 ---
 
-## GitHub Repository
+# GitHub Repository
 
 https://github.com/iemkajal/markdown-blog-app
 
 ---
 
-## Tech Stack
+# Tech Stack
 
-### Frontend
+## Frontend
 
 * React
 * Vite
 * Tailwind CSS
 * Context API
 
-### Backend
+## Backend
 
 * Node.js
 * Express.js
 
-### Database
+## Database
 
 * MongoDB
 
-### Authentication
+## Authentication
 
 * JWT (JSON Web Token)
 
 ---
 
-## Setup Instructions
+# Setup Instructions
 
-### 1. Clone the Repository
+Follow the steps below to run the project locally.
 
+## 1. Clone the Repository
+
+```bash
 git clone https://github.com/iemkajal/markdown-blog-app.git
+```
 
-### 2. Navigate to Project Folder
+## 2. Navigate to the Project Folder
 
+```bash
 cd markdown-blog-app
+```
 
 ---
 
-### 3. Backend Setup
+# Backend Setup
 
+Move to the backend folder and install dependencies:
+
+```bash
 cd backend
 npm install
+```
 
 Create a `.env` file inside the backend folder and add:
 
+```
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
+```
 
 Start the backend server:
 
+```bash
 npm start
+```
 
 Backend will run on:
+
 http://localhost:5000
 
 ---
 
-### 4. Frontend Setup
+# Frontend Setup
 
 Open a new terminal and run:
 
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 Frontend will run on:
+
 http://localhost:5173
 
 ---
 
-## Design Decisions
+# Design Decisions
 
-**Separation of Frontend and Backend**
-The frontend and backend are separated into different folders to maintain clean architecture and easier scalability.
+## Separation of Frontend and Backend
 
-**REST API Structure**
-The backend uses REST APIs for handling blog operations such as creating, updating, and deleting posts.
+The application separates frontend and backend logic to maintain a clean architecture and allow easier scalability and maintenance.
 
-**JWT Authentication**
-JWT tokens are used for secure user authentication and session handling.
+## REST API Structure
 
-**Component Based Architecture**
-The frontend uses reusable React components to maintain modular and maintainable code.
+The backend follows RESTful API principles to handle operations such as creating, updating, retrieving, and deleting blog posts.
+
+## JWT Authentication
+
+JWT tokens are used for secure user authentication and session management.
+
+## Component Based Architecture
+
+The frontend is built using reusable React components to maintain modular and maintainable code.
 
 ---
 
-## Author
+# Application Screenshots
 
-KAJAL BARTHWAL
+## Homepage
+
+![Homepage](screenshots/homepage.png)
+
+## Login Page
+
+![Login](screenshots/login.png)
+
+## Register Page
+
+![Register](screenshots/register.png)
+
+## Blog Editor
+
+![Editor](screenshots/editors.png)
+
+## Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+## Popular Creators
+
+![Creators](screenshots/popularcreaters.png)
+
+## Blog View
+
+![Blog View](screenshots/userview.png)
+
+---
+
+# Author
+
+Kajal Barthwal
 MCA Graduate | Full Stack Developer
